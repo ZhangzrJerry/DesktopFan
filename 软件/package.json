@@ -1,20 +1,15 @@
 {
-  "name": "fan-controller",
+  "name": "fan-device",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "nodemon --watch main.js --exec electron ."
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "",
+  "keywords": [],
+  "author": "ZhangzrJerry",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^21.2.1"
   }
